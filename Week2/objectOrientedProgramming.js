@@ -470,3 +470,103 @@ User.setMembershipStatus("Premium");
 console.log(User.getName()); // Output: John Doe
 console.log(User.getEmail()); // Output: john@example.com
 console.log(User.getMembershipStatus()); // Output: Premium
+
+// -- Inheritance
+// Inheritance -> konsep dalam pemrograman berorientasi objek yang memungkinkan kelas-kelas dibuat berdasarkan kelas-kelas lain
+
+// contoh 1 : konsep antara hewan dan anjing
+// Parent class
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  // Method
+  eat() {
+    console.log(`${this.name} is eating.`);
+  }
+}
+
+// Child class inheriting from Animal
+class Dog extends Animal {
+  constructor(name, breed) {
+    super(name); // Call the constructor of the parent class
+    this.breed = breed;
+  }
+
+  // Method overriding
+  eat() {
+    super.eat(); // Call the eat method of the parent class
+    console.log(`${this.name} is eating loudly.`);
+  }
+
+  // Additional method
+  bark() {
+    console.log(`${this.name} is barking.`);
+  }
+}
+
+// Create an instance of Dog
+let dog = new Dog("Buddy", "Golden Retriever");
+// Access inherited method
+dog.eat(); // Output: Buddy is eating. Buddy is eating loudly.
+// Access method of child class
+dog.bark(); // Output: Buddy is barking.
+
+// contoh 2 : konsep pewarisan antara employee and manager
+// Parent class
+class Employee {
+  constructor(name, salary) {
+    this.name = name;
+    this.salary = salary;
+  }
+
+  // Method
+  getDetails() {
+    return `${this.name} earns ${this.salary} per month.`;
+  }
+}
+
+// Child class inheriting from Employee
+class Manager extends Employee {
+  constructor(name, salary, department) {
+    super(name, salary); // Call the constructor of the parent class
+    this.department = department;
+  }
+
+  // Method overriding
+  getDetails() {
+    return `${this.name} is a manager in the ${this.department} department.`;
+  }
+
+  // Additional method
+  manageTeam() {
+    console.log(`${this.name} is managing a team.`);
+  }
+}
+
+// Create an instance of Manager
+let manager = new Manager("Alice", 5000, "Marketing");
+// Access inherited method
+console.log(manager.getDetails()); // Output: Alice is a manager in the Marketing department.
+// Access method of child class
+manager.manageTeam(); // Output: Alice is managing a team.
+
+// *penggunaan 'instanceof' method
+// instanceof -> untuk mengecek apakah sebuah objek merupakan bagian dari sebuah kelas tertentu.
+class Animal {}
+
+// Child class inheriting from Animal
+class Dog extends Animal {}
+
+// Create instances
+let animal = new Animal();
+let doggo = new Dog();
+
+// Check if instances belong to certain classes
+console.log(animal instanceof Animal); // Output: true
+console.log(doggo instanceof Dog); // Output: true
+
+// Check inheritance
+console.log(doggo instanceof Animal); // Output: true, because Dog inherits from Animal
+console.log(animal instanceof Dog); // Output: false, because Animal does not inherit from Dog
