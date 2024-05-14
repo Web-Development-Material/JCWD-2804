@@ -1,43 +1,47 @@
 // Define Player class
-function Player(name) {
-  // Inisialisasi properti name, health, dan power dengan nilai default
-  this.name = name;
-  this.health = 100;
-  this.power = 10;
+class Player {
+  constructor(name) {
+    // Inisialisasi properti name, health, dan power dengan nilai default
+    this.name = name;
+    this.health = 100;
+    this.power = 10;
+  }
 
   // Metode damage untuk mengurangi health pemain berdasarkan power
-  this.damage = function (power) {
+  damage(power) {
     this.health -= power;
-  };
+  }
 
   // Metode useItem untuk menambah health dan power pemain berdasarkan item yang diberikan
-  this.useItem = function (item) {
+  useItem(item) {
     this.health += item.health;
     this.power += item.power;
-  };
+  }
 
   // Metode showStatus untuk menampilkan status pemain (nama, health, dan power)
-  this.showStatus = function () {
+  showStatus() {
     return `Player ${this.name} (Health => ${this.health}, Power => ${this.power})`;
-  };
+  }
 }
 
 // Define ShootingGame class
-function ShootingGame(player1, player2) {
-  // Inisialisasi player1 dan player2
-  this.player1 = player1;
-  this.player2 = player2;
+class ShootingGame {
+  constructor(player1, player2) {
+    // Inisialisasi player1 dan player2
+    this.player1 = player1;
+    this.player2 = player2;
+  }
 
   // Metode getRandomItem untuk mendapatkan item secara acak (health +10 atau power +10)
-  this.getRandomItem = function () {
+  getRandomItem() {
     return {
       health: Math.random() >= 0.5 ? 10 : 0,
       power: Math.random() >= 0.5 ? 10 : 0,
     };
-  };
+  }
 
   // Metode start untuk memulai permainan
-  this.start = function () {
+  start() {
     // Inisialisasi pemain saat ini dan pemain berikutnya
     let currentPlayer = this.player1;
     let nextPlayer = this.player2;
@@ -82,11 +86,9 @@ function ShootingGame(player1, player2) {
       }
 
       // Menukar pemain saat ini dengan pemain berikutnya untuk giliran selanjutnya
-      const temp = currentPlayer;
-      currentPlayer = nextPlayer;
-      nextPlayer = temp;
+      [currentPlayer, nextPlayer] = [nextPlayer, currentPlayer];
     }
-  };
+  }
 }
 
 // Create players
