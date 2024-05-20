@@ -241,16 +241,22 @@ function handleResult(result: Result): void {
   }
 }
 
-const successResult: Success = {
-  status: "success",
-  data: "Operation was successful",
-};
-const failureResult: Failure = {
-  status: "failure",
-  error: "Something went wrong",
-};
+function generateRandomResult(): Result {
+  const randomValue = Math.random() * 10; // Menghasilkan nilai antara 0 dan 9.9999
+  if (randomValue < 5) {
+    // Misalnya, kita anggap nilai kurang dari 5 sebagai 'success'
+    return {
+      status: "success",
+      data: "Operation was successful",
+    };
+  } else {
+    // Nilai 5 atau lebih dianggap sebagai 'failure'
+    return {
+      status: "failure",
+      error: "Something went wrong",
+    };
+  }
+}
 
-handleResult(successResult);
-// Output: Success: Operation was successful
-handleResult(failureResult);
-// Output: Failure: Something went wrong
+const randomResult: Result = generateRandomResult();
+handleResult(randomResult);
