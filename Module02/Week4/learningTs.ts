@@ -48,11 +48,11 @@ console.log("Random value:", randomValue);
 // ----------------------------------------------------------------
 // Slide 2 : Deklarasi variabel dan fungsi
 let age: number = 30;
-let Username: string = "John Doe";
+let username: string = "John Doe";
 let isStudent: boolean = true;
 
 console.log("Age:", age); // Output: Age: 30
-console.log("Username:", Username); // Output: Username: John Doe
+console.log("username:", username); // Output: username: John Doe
 console.log("Is Student:", isStudent); // Output: Is Student: true
 
 // Deklarasi fungsi dengan tipe parameter dan tipe return
