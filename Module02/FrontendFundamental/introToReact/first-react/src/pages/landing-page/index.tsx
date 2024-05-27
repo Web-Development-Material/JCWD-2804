@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ReusableComponent from "../components/ReusableComponent";
+import ReusableComponent from "../../components/ReusableComponent";
 
 const LandingPage = () => {
   const [count, setCount] = useState<number>(0);

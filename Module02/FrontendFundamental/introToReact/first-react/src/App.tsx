@@ -1,8 +1,9 @@
-import LandingPage from "./pages/LandingPage";
+// import LandingPage from "./pages/LandingPage";
+import AuthPage from "./pages/auth-page";
 import "./App.css";
 
 const App = () => {
-  return <LandingPage />;
+  return <AuthPage />;
 };
 
 export default App;
