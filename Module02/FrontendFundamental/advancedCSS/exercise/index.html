@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <nav class="navbar sticky">
+    <div class="container">
+      <a href="#" class="brand">Coffee Shop</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="overlay"></div>
+      <!-- Elemen tambahan untuk efek dimmed -->
+      <div class="container">
+        <h1>Welcome to Coffee Shop</h1>
+        <p>Your daily dose of freshly brewed coffee.</p>
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="https://source.unsplash.com/250x250/?espresso" alt="Coffee 1" />
+            <h3>Espresso</h3>
+            <p>Rich and bold espresso made with the finest beans.</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://source.unsplash.com/250x250/?latte" alt="Coffee 2" />
+            <h3>Latte</h3>
+            <p>Smooth and creamy latte with a hint of vanilla.</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://source.unsplash.com/250x250/?cappuccino" alt="Coffee 3" />
+            <h3>Cappuccino</h3>
+            <p>Perfectly balanced cappuccino with a frothy top.</p>
+          </div>
+          <div class="grid-item">
+            <img src="https://source.unsplash.com/250x250/?americano" alt="Coffee 4" />
+            <h3>Americano</h3>
+            <p>Classic americano with a rich and full flavor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p class="description">
+          We are passionate about providing the best coffee experience. Our
+          beans are sourced from the finest growers and roasted to perfection.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p class="contact">
+          Have any questions? Reach out to us and we’ll get back to you as
+          soon as possible.
+        </p>
+        <p>Total Visits: <span id="visits"></span></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript to track and display visits -->
+  <script>
+    // Check if the 'visits' key exists in localStorage
+    if (!localStorage.getItem('visits')) {
+      // If not, set the 'visits' key to 0
+      localStorage.setItem('visits', 0);
+    }
+
+    // Get the current number of visits from localStorage
+    let visits = parseInt(localStorage.getItem('visits'));
+
+    // Increment the number of visits
+    visits++;
+
+    // Update the 'visits' key in localStorage
+    localStorage.setItem('visits', visits);
+
+    // Display the number of visits on the page
+    document.getElementById('visits').innerText = visits;
+  </script>
+</body>
+</html>
