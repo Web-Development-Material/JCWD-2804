@@ -1,0 +1,11 @@
+# Gunakan MySQL 5.7 sebagai base image
+FROM mysql:5.7
+
+# Mengatur root password (ganti dengan yang sesuai)
+ENV MYSQL_ROOT_PASSWORD=root
+
+# Buat database
+ENV MYSQL_DATABASE=booking_hotel
+
+# Menyalin skrip SQL ke dalam container
+COPY ./init.sql /docker-entrypoint-initdb.d/

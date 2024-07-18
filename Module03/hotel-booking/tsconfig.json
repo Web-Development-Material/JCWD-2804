@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, // Optionally, to skip type checking of all declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true // Optionally, for consistent casing of file names
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

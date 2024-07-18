@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "internalName": "Test Name 1",
+        "pageName": "Test Page 1",
+        "slug": "test-page-1"
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "internalName": "Test Name 2",
+        "pageName": "Test Page 2",
+        "slug": "test-page-2"
+      }
+    }
+  ]
+}

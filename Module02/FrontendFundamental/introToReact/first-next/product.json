@@ -1,0 +1,299 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "LG OLED TV",
+      "description": "TV 4K dengan layar OLED yang menghasilkan gambar berkualitas tinggi.",
+      "image": "https://source.unsplash.com/featured/?tv",
+      "price": 18000000,
+      "category": "gadget"
+    },
+    {
+      "id": "2",
+      "name": "Nintendo Switch",
+      "description": "Konsol game hybrid yang dapat dimainkan di TV atau sebagai handheld.",
+      "image": "https://source.unsplash.com/featured/?games",
+      "price": 5000000,
+      "category": "gadget"
+    },
+    {
+      "id": "3",
+      "name": "Canon EOS 5D Mark IV",
+      "description": "Kamera DSLR full frame dengan fitur video 4K.",
+      "image": "https://source.unsplash.com/featured/?camera",
+      "price": 30000000,
+      "category": "gadget"
+    },
+    {
+      "id": "4",
+      "name": "Samsung Galaxy Tab S7+",
+      "description": "Tablet Android premium dengan layar Super AMOLED.",
+      "image": "https://source.unsplash.com/featured/?tablet",
+      "price": 15000000,
+      "category": "gadget"
+    },
+    {
+      "id": "5",
+      "name": "Sony PlayStation 5",
+      "description": "Konsol game generasi terbaru dengan dukungan untuk ray tracing.",
+      "image": "https://source.unsplash.com/featured/?ps5",
+      "price": 9000000,
+      "category": "gadget"
+    },
+    {
+      "id": "6",
+      "name": "Apple AirPods Pro",
+      "description": "Earbuds nirkabel dengan fitur noise cancellation.",
+      "image": "https://source.unsplash.com/featured/?earphones",
+      "price": 3000000,
+      "category": "gadget"
+    },
+    {
+      "id": "7",
+      "name": "Garmin Forerunner 945",
+      "description": "Smartwatch untuk olahraga dengan GPS dan sensor detak jantung.",
+      "image": "https://source.unsplash.com/featured/?watch",
+      "price": 6000000,
+      "category": "gadget"
+    },
+    {
+      "id": "8",
+      "name": "Fitbit Versa 3",
+      "description": "Smartwatch dengan fitur pelacakan kesehatan dan olahraga.",
+      "image": "https://source.unsplash.com/featured/?smartwatch",
+      "price": 4000000,
+      "category": "gadget"
+    },
+    {
+      "id": "9",
+      "name": "GoPro HERO9 Black",
+      "description": "Action camera dengan kemampuan merekam video 5K.",
+      "image": "https://source.unsplash.com/featured/?gopro",
+      "price": 7000000,
+      "category": "gadget"
+    },
+    {
+      "id": "10",
+      "name": "Xiaomi Mi Band 6",
+      "description": "Fitness tracker dengan layar AMOLED dan sensor detak jantung.",
+      "image": "https://source.unsplash.com/featured/?fitness",
+      "price": 800000,
+      "category": "gadget"
+    },
+    {
+      "id": "11",
+      "name": "Kindle Paperwhite",
+      "description": "E-reader dengan layar anti silau dan tahan air.",
+      "image": "https://source.unsplash.com/featured/?kindle",
+      "price": 2000000,
+      "category": "gadget"
+    },
+    {
+      "id": "12",
+      "name": "Anker PowerCore 20000mAh",
+      "description": "Power bank dengan kapasitas besar untuk pengisian daya seluler.",
+      "image": "https://source.unsplash.com/featured/?powerbank",
+      "price": 500000,
+      "category": "gadget"
+    },
+    {
+      "id": "13",
+      "name": "Razer DeathAdder Elite",
+      "description": "Mouse gaming dengan sensor optik 16000 DPI.",
+      "image": "https://source.unsplash.com/featured/?mouse",
+      "price": 1200000,
+      "category": "gadget"
+    },
+    {
+      "id": "14",
+      "name": "Logitech G Pro X",
+      "description": "Headset gaming dengan suara surround 7.1 dan mikrofon detachable.",
+      "image": "https://source.unsplash.com/featured/?headset",
+      "price": 2500000,
+      "category": "gadget"
+    },
+    {
+      "id": "15",
+      "name": "Fitbit Ace 3",
+      "description": "Fitness tracker khusus anak-anak dengan pelacakan aktifitas sepanjang hari.",
+      "image": "https://source.unsplash.com/featured/?fitbit",
+      "price": 900000,
+      "category": "gadget"
+    },
+    {
+      "id": "16",
+      "name": "JBL Clip 4",
+      "description": "Speaker portable dengan desain ringkas dan tahan air.",
+      "image": "https://source.unsplash.com/featured/?speaker",
+      "price": 400000,
+      "category": "gadget"
+    },
+    {
+      "id": "17",
+      "name": "Samsung Galaxy Watch 3",
+      "description": "Smartwatch dengan deteksi jatuh dan pemantauan tekanan darah.",
+      "image": "https://source.unsplash.com/featured/?watch",
+      "price": 5000000,
+      "category": "gadget"
+    },
+    {
+      "id": "18",
+      "name": "LG UltraGear 27GN950-B",
+      "description": "Monitor gaming 4K dengan refresh rate 144Hz.",
+      "image": "https://source.unsplash.com/featured/?monitor",
+      "price": 12000000,
+      "category": "gadget"
+    },
+    {
+      "id": "19",
+      "name": "iPad Air 2020",
+      "description": "Tablet dengan layar Retina 10.9 inci dan chip A14 Bionic.",
+      "image": "https://source.unsplash.com/featured/?ipad",
+      "price": 10000000,
+      "category": "gadget"
+    },
+    {
+      "id": "20",
+      "name": "Xiaomi Redmi Note 10",
+      "description": "Smartphone dengan kamera 48MP dan baterai 5000mAh.",
+      "image": "https://source.unsplash.com/featured/?smartphone",
+      "price": 3000000,
+      "category": "gadget"
+    },
+    {
+      "id": "21",
+      "name": "Baju Anak Laki-Laki Motif Robot",
+      "description": "Baju anak laki-laki dengan motif robot yang lucu.",
+      "image": "https://source.unsplash.com/featured/?boy-clothes",
+      "price": 150000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "22",
+      "name": "Celana Anak Perempuan Motif Bunga",
+      "description": "Celana anak perempuan dengan motif bunga yang cantik.",
+      "image": "https://source.unsplash.com/featured/?girl-pants",
+      "price": 100000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "23",
+      "name": "Sepatu Anak Unisex Warna Pastel",
+      "description": "Sepatu anak dengan warna pastel yang cocok untuk semua jenis kelamin.",
+      "image": "https://source.unsplash.com/featured/?kids-shoes",
+      "price": 200000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "24",
+      "name": "Kursi Makan Anak Lipat",
+      "description": "Kursi makan anak yang dapat dilipat untuk penyimpanan yang mudah.",
+      "image": "https://source.unsplash.com/featured/?high-chair",
+      "price": 300000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "25",
+      "name": "Baju Anak Perempuan Dress Motif Kucing",
+      "description": "Baju anak perempuan berbahan katun dengan motif kucing yang lucu.",
+      "image": "https://source.unsplash.com/featured/?girl-dress",
+      "price": 200000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "26",
+      "name": "Topi Anak Perempuan Rajut",
+      "description": "Topi rajut untuk anak perempuan yang hangat dan nyaman.",
+      "image": "https://source.unsplash.com/featured/?girl-hat",
+      "price": 50000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "27",
+      "name": "Kaos Anak Laki-Laki Motif Superhero",
+      "description": "Kaos anak laki-laki dengan motif superhero yang keren.",
+      "image": "https://source.unsplash.com/featured/?boy-shirt",
+      "price": 80000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "28",
+      "name": "Kacamata Anak Perempuan",
+      "description": "Kacamata anak perempuan dengan desain yang stylish dan nyaman dipakai.",
+      "image": "https://source.unsplash.com/featured/?girl-glasses",
+      "price": 100000,
+      "category": "perlengkapan anak"
+    },
+    {
+      "id": "29",
+      "name": "Baju Bayi Motif Buah Beruang",
+      "description": "Baju bayi lucu dengan motif beruang yang imut.",
+      "image": "https://source.unsplash.com/featured/?baby-clothes",
+      "price": 80000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "30",
+      "name": "Selimut Bayi Rajut",
+      "description": "Selimut bayi yang hangat dan lembut, rajutan tangan.",
+      "image": "https://source.unsplash.com/featured/?baby-blanket",
+      "price": 150000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "31",
+      "name": "Botol Susu Anti-Colic",
+      "description": "Botol susu dengan teknologi anti-colic untuk kenyamanan bayi.",
+      "image": "https://source.unsplash.com/featured/?baby-bottle",
+      "price": 100000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "32",
+      "name": "Popok Sekali Pakai",
+      "description": "Popok sekali pakai dengan daya serap tinggi.",
+      "image": "https://source.unsplash.com/featured/?diaper",
+      "price": 80000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "33",
+      "name": "Mainan Gigitan Bayi",
+      "description": "Mainan gigitan bayi yang aman dan tidak berbahaya.",
+      "image": "https://source.unsplash.com/featured/?baby-toy",
+      "price": 50000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "34",
+      "name": "Gendongan Bayi",
+      "description": "Gendongan bayi yang ergonomis untuk kenyamanan orang tua dan bayi.",
+      "image": "https://source.unsplash.com/featured/?baby-carrier",
+      "price": 200000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "35",
+      "name": "Pakaian Bayi Laki-Laki Setelan",
+      "description": "Setelan pakaian bayi laki-laki yang nyaman dan modis.",
+      "image": "https://source.unsplash.com/featured/?baby-boy-clothes",
+      "price": 150000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "36",
+      "name": "Sepatu Bayi Perempuan",
+      "description": "Sepatu bayi perempuan yang lucu dan nyaman dipakai.",
+      "image": "https://source.unsplash.com/featured/?baby-shoes",
+      "price": 100000,
+      "category": "perlengkapan bayi"
+    },
+    {
+      "id": "9d13",
+      "name": "Kopi Tomoro",
+      "description": "kopi tomoro rasa macchiato",
+      "price": 25000,
+      "category": "beverage"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "productsData": [
+    {
+      "id": 1,
+      "nama": "Gula Pasir",
+      "deskripsi": "Gula kristal halus",
+      "harga": 15000,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "nama": "Sabun Mandi",
+      "deskripsi": "Sabun cair dengan aroma segar",
+      "harga": 5000,
+      "stock": 100
+    },
+    {
+      "id": 3,
+      "nama": "Kecap ABC",
+      "deskripsi": "Kecap manis berkualitas",
+      "harga": 7000,
+      "stock": 80
+    },
+    {
+      "id": 4,
+      "nama": "Susu Ultra",
+      "deskripsi": "Susu cair dengan kandungan gizi tinggi",
+      "harga": 10000,
+      "stock": 60
+    },
+    {
+      "id": 5,
+      "nama": "Mie Instan",
+      "deskripsi": "Mie instan rasa ayam bawang",
+      "harga": 3000,
+      "stock": 120
+    }
+  ]
+}
